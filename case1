@@ -1,0 +1,13 @@
+1.
+if (!("a" inwindow)) {  
+    var a = 1;  
+}  
+alert(a);  
+
+2.
+function b(x, y, a) {  
+    arguments[2] = 10;  
+    alert(a);  
+}  
+b(1, 2, 3);  
+
